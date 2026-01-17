@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" href="Style/index.css">
+    <link href='boxicons-free/free/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title> Main | Dashboard </title>
+</head>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <img class="img_logo" src="Image/Logo.png" alt="#"> Auralink
+        </div>
+        <div class="menu">
+            <a class="active" href="#">Home</a>
+            <a href="devices.html">Devices</a>
+            <a href="users.html">Users</a>
+            <a href="settings.html">Settings</a>
+        </div>
+        <div class="user-manual">
+            <a href="user-manual.html"> <button> <i class='bx  bx-door'></i> User Manual </button> </a>
+        </div>
+    </div>
+    <!-- End Sidebar -->
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="status">
+            <div class="users active">
+                <i class='bx  bx-group'></i>
+                <h6>2</h6>
+            </div>
+            <div class="users inactive">
+                <i class='bx  bx-group'></i>
+                <h6>2</h6>
+            </div>
+        </div>
+        <div class="alarm">
+            <i class='bx  bx-notification'> </i>
+        </div>
+    </div>
+    <!-- End Navbar -->
+
+
+    <!-- Content -->
+    <div class="content">
+        <!-- top_bar -->
+        <div class="top_bar">
+            <div class="card internet">
+                <i class='bx  bx-globe-alt-2'></i>
+                <div class="text">
+                    <h6> Internet </h6>
+                    <h4> Online (45ms) </h4>
+                </div>
+            </div>
+            <div class="card geteway">
+                <i class='bx  bx-door'></i>
+                <div class="text">
+                    <h6> Geteway </h6>
+                    <h4> Ok (1ms) </h4>
+                </div>
+            </div>
+            <div class="card firewall">
+                <i class='bx  bx-wall'></i>
+                <div class="text">
+                    <h6> Firewall </h6>
+                    <h4> Active </h4>
+                </div>
+            </div>
+        </div>
+        <!-- end top_bar -->
+        <!-- low_bar -->
+        <div class="low_bar">
+            <div class="network_info">
+                <div class="right">
+                    <h3> Host Info </h3>
+                    <div class="info one">
+                        <h6> IP Address </h6>
+                        <h4>192.168.1.1</h4>
+                    </div>
+                    <div class="info two">
+                        <h6> Host Name </h6>
+                        <h4>Mr Nobody</h4>
+                    </div>
+                    <div class="info three">
+                        <h6> CPU </h6>
+                        <h4>12 %</h4>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="info one">
+                        <h6> MAC Address </h6>
+                        <h4>3a-6c-89-c2-ec-98</h4>
+                    </div>
+                    <div class="info two">
+                        <h6> Subnet Mask </h6>
+                        <h4>255.255.255.0</h4>
+                    </div>
+                    <div class="info three">
+                        <h6> RAM </h6>
+                        <h4>14 %</h4>
+                    </div>
+                    <a href="speedtest.html"> <i class="bx  bx-tachometer-alt"> </i> Speed Test </a>
+                </div>
+            </div>
+            <div class="quick_action">
+                <div class="act_card">
+                    <a href="#"> <i class="bx  bx-chart-bar-big-columns"> </i> Task Manager </a>
+                </div>
+                <div class="act_card">
+                    <a href="#"> <i class="bx  bx-computer"> </i> Devices Manager </a>
+                </div>
+            </div>
+        </div>
+        <!-- end low_bar -->
+    </div>
+    <!-- End Content -->
+
+
+    <script src="Js/mode.js" defer></script>
+
+
+</body>
+
+</html>

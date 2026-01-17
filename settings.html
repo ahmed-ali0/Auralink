@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" href="Style/settings.css">
+    <link href='boxicons-free/free/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title> Main | Dashboard </title>
+</head>
+</head>
+
+<body>
+
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <img class="img_logo" src="Image/Logo.png" alt="#"> Auralink
+        </div>
+        <div class="menu">
+            <a href="Index.html">Home</a>
+            <a href="devices.html">Devices</a>
+            <a href="users.html">Users</a>
+            <a class="active" href="#">Settings</a>
+        </div>
+        <div class="user-manual">
+            <a href="user-manual.html"> <button> <i class='bx  bx-door'></i> User Manual </button> </a>
+        </div>
+    </div>
+    <!-- End Sidebar -->
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="status">
+            <div class="users active">
+                <i class='bxr  bx-group'></i>
+                <h6>2</h6>
+            </div>
+            <div class="users inactive">
+                <i class='bx  bx-group'></i>
+                <h6>2</h6>
+            </div>
+        </div>
+        <div class="alarm">
+            <i class='bx  bx-notification'> </i>
+        </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row buttons">
+            <div class="mode">
+                <button class="mode-btn" id="themeToggle"> <i class='bx  bx-sun-dim'></i> Mode </button>
+            </div>
+            <div class="lang">
+                <button class="lang-btn"> <i class='bx  bx-translate'></i> Language </button>
+            </div>
+            <div class="logout">
+                <a href="login-regiester.html"> <button class="logout-btn"> <i class='bx  bx-door'></i> Logout </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Content -->
+
+
+        <script src="Js/mode.js" defer></script>
+
+</body>
+
+</html>

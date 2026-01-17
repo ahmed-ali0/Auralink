@@ -1,0 +1,68 @@
+@import url('../Fonts/sans-serif.css');
+
+
+.table-wrapper {
+    width: 100%;
+    height: fit-content;
+    margin: 100px 50px 0 360px;
+    display: flex;
+}
+
+.custom-table {
+
+    height: fit-content;
+    width: 100%;
+    background: var(--therd-color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    z-index: 0;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+    thead,
+    tbody {
+
+        td,
+        th {
+            border-radius: 20px;
+            box-shadow: 2px 2px 5px black;
+            background-color: var(--glass);
+        }
+    }
+
+    .active {
+        color: var(--green);
+    }
+
+    .inactive {
+        color: var(--red);
+    }
+}
+
+.custom-table th,
+.custom-table td {
+    height: 30px;
+    padding: 14px;
+    text-align: center;
+}
+
+.custom-table thead {
+    color: var(--first-text);
+}
+
+.view {
+    border: 2px solid var(--first-color);
+    color: var(--first-color);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.view:hover {
+    background-color: var(--first-color);
+    color: var(--first-text);
+    cursor: pointer;
+}
